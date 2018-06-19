@@ -51,11 +51,8 @@ sudo dpkg -i vscode.deb
 sudo apt-get install -f -y
 rm vscode.deb
 
-# DBeaver
-wget -O dbeaver.deb https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
-sudo dpkg -i dbeaver.deb
-sudo apt-get install -f -y
-rm dbeaver.deb
+# MySQL Workbench
+sudo apt-get install -y mysql-workbench
 
 # Postman
 wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
